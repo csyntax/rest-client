@@ -1,7 +1,12 @@
+using System.Runtime.Serialization;
+
 namespace RestClient
 {
+    
+    [DataContract(Name="repo")]
     public class Repository
     {
-        public string name;
+        [DataMember(Name="name")]
+        public string Name { get; set; }
     }
 }

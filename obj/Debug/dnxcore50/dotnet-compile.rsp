@@ -42,6 +42,7 @@
 --reference:C:\Users\csyntax\.nuget\packages\System.Runtime.InteropServices.RuntimeInformation\4.0.0-rc2-23811\ref\dotnet5.2\System.Runtime.InteropServices.RuntimeInformation.dll
 --reference:C:\Users\csyntax\.nuget\packages\System.Runtime.Numerics\4.0.1-rc2-23811\ref\dotnet5.2\System.Runtime.Numerics.dll
 --reference:C:\Users\csyntax\.nuget\packages\System.Runtime.Serialization.Json\4.0.1-rc2-23704\ref\dotnet5.1\System.Runtime.Serialization.Json.dll
+--reference:C:\Users\csyntax\.nuget\packages\System.Runtime.Serialization.Primitives\4.0.10-beta-22816\lib\contract\System.Runtime.Serialization.Primitives.dll
 --reference:C:\Users\csyntax\.nuget\packages\System.Text.Encoding\4.0.11-rc2-23811\ref\dotnet5.4\System.Text.Encoding.dll
 --reference:C:\Users\csyntax\.nuget\packages\System.Text.Encoding.Extensions\4.0.11-rc2-23811\ref\dotnet5.4\System.Text.Encoding.Extensions.dll
 --reference:C:\Users\csyntax\.nuget\packages\System.Text.RegularExpressions\4.0.12-rc2-23811\ref\dotnet5.4\System.Text.RegularExpressions.dll

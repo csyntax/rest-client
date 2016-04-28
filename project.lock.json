@@ -424,6 +424,18 @@
           "lib/DNXCore50/System.Runtime.Serialization.Json.dll": {}
         }
       },
+      "System.Runtime.Serialization.Primitives/4.0.10-beta-22816": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime": "4.0.20-beta-22816"
+        },
+        "compile": {
+          "lib/contract/System.Runtime.Serialization.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/aspnetcore50/System.Runtime.Serialization.Primitives.dll": {}
+        }
+      },
       "System.Text.Encoding/4.0.11-rc2-23811": {
         "type": "package",
         "dependencies": {
@@ -6582,6 +6594,19 @@
         "runtimes/win8-aot/lib/netcore50/System.Runtime.Serialization.Json.dll"
       ]
     },
+    "System.Runtime.Serialization.Primitives/4.0.10-beta-22816": {
+      "sha512": "zRXu/9dKdQ8DyGBiKdqLjaF5Tmwi2OaACjQAkw7rcK2vG3R/zQxvGu3jwYcx6IE/5k1lI6B7f3nRAcUzYCjagw==",
+      "type": "package",
+      "files": [
+        "License.rtf",
+        "System.Runtime.Serialization.Primitives.4.0.10-beta-22816.nupkg.sha512",
+        "System.Runtime.Serialization.Primitives.nuspec",
+        "lib/aspnetcore50/System.Runtime.Serialization.Primitives.dll",
+        "lib/contract/System.Runtime.Serialization.Primitives.dll",
+        "lib/net45/System.Runtime.Serialization.Primitives.dll",
+        "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Runtime.Serialization.Primitives.dll"
+      ]
+    },
     "System.Runtime.Serialization.Primitives/4.1.0-rc2-23811": {
       "sha512": "LhnfZmKJsf5zLo2jT0P1toOC4HBM7x9PHSLVyR8hm7P4W0yn0HkFoLjTp4xoeD8lhRWFLdcC5mtTKWsjVfZziQ==",
       "type": "package",
@@ -7440,7 +7465,8 @@
     "": [
       "NETStandard.Library >= 1.0.0-rc2-23811",
       "System.Net.Http >= 4.0.1-rc2-23704",
-      "System.Runtime.Serialization.Json >= 4.0.1-rc2-23704"
+      "System.Runtime.Serialization.Json >= 4.0.1-rc2-23704",
+      "System.Runtime.Serialization.Primitives >= 4.0.1-rc2-23704"
     ],
     "DNXCore,Version=v5.0": []
   }
