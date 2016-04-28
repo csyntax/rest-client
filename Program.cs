@@ -2,6 +2,8 @@
 using System.Threading.Tasks;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Collections.Generic;
+using System.Runtime.Serialization.Json;
 
 namespace RestClient
 {
@@ -17,7 +19,15 @@ namespace RestClient
                 var stringTask = client.GetStringAsync("https://api.github.com/users/csyntax/repos");
                 var msg = await stringTask;
                 
-                Console.Write(msg);
+                var serializer = new DataContractJsonSerializer(typeof(List<Repository>));
+                
+                var streamTask = client.GetStreamAsync("https://api.github.com/users/csyntax/repos");
+                var repositories = serializer.ReadObject(await streamTask) as List<Repository>;
+                
+                foreach (var repository in repositories)
+                {
+                    Console.WriteLine(repository.name);
+                }
         }
 
         public static void Main(string[] args)
