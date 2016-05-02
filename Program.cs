@@ -10,7 +10,7 @@ namespace RestClient
 
             foreach (var repository in repositories) 
             {
-                Console.WriteLine(repository.Name);
+                Console.WriteLine(repository);
             }      
         }
     }
