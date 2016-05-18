@@ -1,5 +1,5 @@
---temp-output:C:\Users\csyntax\Desktop\rest-client\obj\Debug\dnxcore50\
---out:C:\Users\csyntax\Desktop\rest-client\bin\Debug\dnxcore50\rest-client.dll
+--temp-output:c:\Users\csyntax\Desktop\rest-client\obj\Debug\dnxcore50\
+--out:c:\Users\csyntax\Desktop\rest-client\bin\Debug\dnxcore50\rest-client.dll
 --define:DEBUG
 --define:TRACE
 --define:DNXCORE50
@@ -49,5 +49,5 @@
 --reference:C:\Users\csyntax\.nuget\packages\System.Threading\4.0.11-rc2-23811\ref\dotnet5.4\System.Threading.dll
 --reference:C:\Users\csyntax\.nuget\packages\System.Threading.Tasks\4.0.11-rc2-23811\ref\dotnet5.4\System.Threading.Tasks.dll
 --reference:C:\Users\csyntax\.nuget\packages\System.Threading.Timer\4.0.1-rc2-23811\ref\dotnet5.3\System.Threading.Timer.dll
-C:\Users\csyntax\Desktop\rest-client\Program.cs
-C:\Users\csyntax\Desktop\rest-client\Repository.cs
+c:\Users\csyntax\Desktop\rest-client\Program.cs
+c:\Users\csyntax\Desktop\rest-client\Repository.cs
